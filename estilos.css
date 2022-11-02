@@ -1,0 +1,229 @@
+* {
+    
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Epilogue', sans-serif;
+    
+}
+.contenedorprincipal{
+    max-width: 1440px;
+	margin: auto;
+    display: flex;
+}
+.header{
+display: flex;
+justify-content: center;
+
+}
+.logooo{ 
+    padding-top: 10px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.barra{
+    display: center;
+    padding-top: 12px;
+
+}
+.lista{
+    display:flex;
+    justify-content: left;
+    list-style: none;
+    gap: 2rem;
+    padding-right: 650px;
+    cursor: pointer;
+    position: relative;
+    color: hsl(0, 0%, 41%);
+
+}
+.listados{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    padding-right: 60px;
+    cursor: pointer;
+    position: relative;
+    color: hsl(0, 0%, 41%);
+}
+.uno{
+    display: flex;
+}
+.seis{
+    outline: 2px solid  hsl(0, 0%, 41%) ;
+    border-radius: 10px;
+    padding-bottom: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+.uno:hover{
+     color: black;
+
+}
+.dos:hover{
+    color: black;
+
+}
+.cuatro:hover{
+    color: black;
+
+}
+.cinco:hover{
+    color: black;
+
+}
+.seis:hover{
+    outline: solid black;
+    color: black;
+
+}
+
+ul{
+    list-style: none;
+}  
+
+ 
+.despliegueuno{
+    position: absolute;
+    top: 100%;
+    border-radius: 7px;
+    border: solid .5px white; 
+    box-shadow: 1px 1px 1px 1px hsl(0, 0%, 41%);
+    padding: 1rem;
+    width: 100px;
+    display: none;
+    flex-direction: column; 
+    
+}
+.l1,img{
+    padding-left: 2px;
+
+}
+.desplieguedos,li{
+    padding-bottom: 6px;
+}
+.desplieguedos{
+    position: absolute;
+    top: 100%;
+    border-radius: 7px;
+    border: solid .2px white ; 
+    box-shadow: 2px 2px 2px 2px hsl(0, 0%, 41%);
+    padding: 1rem;
+    width: 100px;
+    display: none;
+    flex-direction: column;
+}
+
+.emerge:hover > .despliegueuno{
+    display: flex;
+
+} 
+.emergedos:hover > .desplieguedos{
+    display: flex;
+}
+
+
+.principal{
+    display: flex;
+    padding-inline-start: 20px;
+    
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+  
+}
+.texto{
+    color: hsl(0, 0%, 41%);
+    text-align: left ;
+    font-size: 18px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.contprincipaltres{
+  padding-left: 100px;
+}
+.imagengrande{
+   display: flex;
+   
+}
+.contprincipaldos{
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+
+}
+
+.logo1{
+    display: flex;
+    align-items: flex-end;
+}
+.titulo{
+    display: flex;
+    justify-content: flex-start;
+}
+.logos{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 60px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.principal{
+display: flex;
+padding-top: 30px;
+}
+.botonn{
+padding: 18px;
+border-radius: 8px;
+width: 100px;
+height: 8px;
+color:  hsl(0, 0%, 98%);
+background-color: hsl(0, 0%, 8%);
+text-align:center;
+text-align: start;
+
+}
+.botonn:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+    outline: 2px solid  hsl(0, 0%, 8%)  ;
+    cursor: pointer;
+}
+.flechauno{
+    width: 15 px;
+    height: 10px;
+    padding-top: 4px;
+}
+
+.emerge:hover > .uno > .flechauno{
+    transform: rotate(180deg);
+   
+}
+.dos{
+    display: flex;
+}
+.fechados{
+    width: 15px;
+    height: 10px;
+    padding-top: 4px;
+    
+}
+.emergedos:hover > .dos > .flechados{
+    transform: rotate(180deg);
+    
+}
+.fechadoss{
+    width: 15px;
+    height: 10px;
+    padding-top: 4px;
+    
+}
+.emerge:hover > .uno > .flechadoss{
+    transform: rotate(180deg);
+}
+    

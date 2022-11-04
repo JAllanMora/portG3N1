@@ -2,7 +2,8 @@
     
     background-color: hsl(0, 0%, 98%);
     font-family: 'Epilogue', sans-serif;
-    
+  
+   
 }
 .contenedorprincipal{
     max-width: 1440px;
@@ -15,7 +16,9 @@ justify-content: center;
 
 }
 .logooo{ 
-    padding-top: 10px;
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
 }
 nav{
     width: 100%;
@@ -31,32 +34,48 @@ nav{
     display:flex;
     justify-content: left;
     list-style: none;
-    gap: 2rem;
-    padding-right: 650px;
+    gap: 3rem;
+    padding-right: 530px;
     cursor: pointer;
     position: relative;
     color: hsl(0, 0%, 41%);
+    
 
 }
 .listados{
-    display:flex;
-    justify-content: center;
-    list-style: none;
-    gap: 40px;
-    padding-right: 60px;
-    cursor: pointer;
-    position: relative;
+    width: 100px;
+    justify-content: end;
+    display: flex;
     color: hsl(0, 0%, 41%);
-}
+    gap: .6rem;
+   
+  }
+
 .uno{
     display: flex;
+    align-items: center;
+
+}
+.cinco{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.cincoo{
+    padding: 7px;
 }
 .seis{
-    outline: 2px solid  hsl(0, 0%, 41%) ;
+   
+    text-align: center;
+    outline: 1px solid  hsl(0, 0%, 41%) ;
     border-radius: 10px;
-    padding-bottom: 8px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding: 8px;
+    
+
+}
+.dosb{
+    display: flex;
     
 }
 .uno:hover{
@@ -67,11 +86,14 @@ nav{
     color: black;
 
 }
+.tres:hover{
+    color: black;
+}
 .cuatro:hover{
     color: black;
 
 }
-.cinco:hover{
+.cincoo:hover{
     color: black;
 
 }
@@ -128,7 +150,7 @@ ul{
 
 .principal{
     display: flex;
-    padding-inline-start: 20px;
+    
     
 }
 .titulo{
@@ -181,11 +203,11 @@ padding-top: 30px;
 padding: 18px;
 border-radius: 8px;
 width: 100px;
-height: 8px;
+
 color:  hsl(0, 0%, 98%);
 background-color: hsl(0, 0%, 8%);
 text-align:center;
-text-align: start;
+
 
 }
 .botonn:hover{
@@ -206,6 +228,7 @@ text-align: start;
 }
 .dos{
     display: flex;
+    align-items: center;
 }
 .fechados{
     width: 15px;
@@ -225,5 +248,6 @@ text-align: start;
 }
 .emerge:hover > .uno > .flechadoss{
     transform: rotate(180deg);
+    
 }
     
